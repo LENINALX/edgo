@@ -1,0 +1,16 @@
+# Dependencies installed locally
+node_modules/
+
+# Expo local caches and generated verification bundles
+.expo/
+.expo-*/
+
+# Environment-specific secrets
+.env
+.env.*
+!.env.example
+
+# System/editor files
+.DS_Store
+Thumbs.db
+.vscode/

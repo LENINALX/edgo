@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "EDGO",
+    "slug": "edgo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#1C1830"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyAWvSUqDLSB7RMjPbUrkObiJ-SeicJ-UI8"
+      }
+    },
+    "android": {
+      "package": "com.edgo.app",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAWvSUqDLSB7RMjPbUrkObiJ-SeicJ-UI8"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "EDGO usa tu ubicación para mostrar unidades cercanas."
+        }
+      ],
+      "expo-font",
+      "expo-asset"
+    ]
+  }
+}
